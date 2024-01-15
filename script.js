@@ -29,6 +29,7 @@ const pokémon = Object.freeze([
     const pkmnFire = pokémon.filter(p => p.types.includes("fire"))
     
     const pkmnMore = pokémon.filter(p => p.types.length > 1)
+
     const pkmnName = pokémon.map(p => p.name);
     
     const pkmn99 = pokémon.filter(p => p.id >= 99).map(p => p.name)
